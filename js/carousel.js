@@ -47,13 +47,7 @@ class Carousel {
         this.ShowCurrent();
         this.UpdateDots();
     }
-
-    static Previous() {
-        this._sequence = (this._sequence - 1 + this._size) % this._size;
-        this.ShowCurrent();
-        this.UpdateDots();
-    }
-
+    
     static CreateDots() {
         const container = document.getElementById("carousel-dots");
         container.innerHTML = "";
