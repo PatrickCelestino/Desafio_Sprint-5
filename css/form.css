@@ -9,6 +9,18 @@
     padding: 5px;
 }
 
+.text-area {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 100Px;
+    margin: 8px;
+    font-size: 15px;
+    padding: 5px;
+    resize: vertical;
+}
+
 select.fordform {
     width: 310px;
     height: 36px;
@@ -47,6 +59,10 @@ button {
     height: 40px;
     margin-right: 8px;
     float: right;
+    transition: 0.3s ease, 0.2s ease;
+}
+button:hover {
+    transform: scale(1.05);
 }
 
 .titulo {
